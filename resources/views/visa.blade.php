@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
 </head>
 
 <body style="background-color:skyblue">
-  <div style="text-align:center; border:1px white solid; padding: 50px; width:30%; color:blue; font-size:bolder; margin:30px">
+  <div style="text-align:justify; border:1px white solid; padding: 50px; width:30%; color:blue; font-size:bolder; margin:30px">
     {!! session ('msg')!!}
     <br>
     <br>
@@ -53,7 +53,8 @@
         <div>
         <button type="submit" style="background-color:green; border-radius:5px; border-color:white; cursor:pointer">Submit</button>
         </div>
-        <marquee dierction="left">30mins per session at a fee of 20,000 Naira </marquee>
+        <br>
+        <marquee direction="left" scrolldelay="110">30mins per session at a fee of 20,000 Naira </marquee>
     </form>
   <div>
 

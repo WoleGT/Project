@@ -85,7 +85,9 @@
     <div class="w-[700px] md:w-[900px] container h-auto  ">
         <p class="w-full text-center uppercase text-white tracking-widest [word-spacing:8px] mb-4">come travel the world with us</p>
         <h1 class="w-full text-center text-white text-5xl md:text-7xl font-secondary uppercase tracking-widest">Explore The World With <span class="travol">Spicy Travels</span></h1>
-        <marquee direction="right"> A spicy way to explore...</marquee>              
+        <br>
+        <br>
+        <marquee direction="left"> A spicy way to explore...</marquee>              
     </div>
    </section>
    
