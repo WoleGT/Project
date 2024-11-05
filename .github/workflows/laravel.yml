@@ -41,4 +41,4 @@ jobs:
         with:
           server: ftp.spicytravelsntour.com
           username: spicy@spicytravelsntour.com
-          password: ${{ secrets.FTP_PASSWORD }}
+          password: SpicyTravels2024!@
