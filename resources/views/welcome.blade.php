@@ -9,8 +9,7 @@
     <link rel="icon" href="./img/spicy banner.jpg">
     <title>Spicy Travel n Tour Ltd</title>
     <link rel="stylesheet" href="{{asset('css/output.css')}}">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">  
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
 </head>
@@ -87,7 +86,8 @@
         <h1 class="w-full text-center text-white text-5xl md:text-7xl font-secondary uppercase tracking-widest">Explore The World With <span class="travol">Spicy Travels</span></h1>
         <br>
         <br>
-        <marquee direction="left"> A spicy way to explore...</marquee>              
+        <marquee direction="left"> A spicy way to explore...</marquee>  
+        <iframe src="https://free.timeanddate.com/clock/i9ly5yft/n742/fn6/fs16/fcfff/tct/pct/ftb/pa8/tt0/tw1/tm1/th2/ta1/tb4" frameborder="0" width="162" height="56" allowtransparency="true"></iframe>
     </div>
    </section>
    
@@ -121,7 +121,7 @@
                                         <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
                                                 <p class="text-3xl text-color3 capitalize font-secondary">Maldives tour</p>
                                                 <p class="text-color1 mb-4">$2.500 / per persons</p>
-                                                <p class="text-color6">Why is the Maldives a top destination for travelers? The Maldives, a tropical paradise in the Indian Ocean, is famous for its stunning natural beauty, rich culture, and luxurious resorts. With 26 atolls and over 1,000 coral islands, this island nation offers crystal-clear waters, pristine white-sand beaches, and vibrant marine life. Visitors can enjoy activities like diving, snorkeling, and fishing, while also experiencing traditional Maldivian music, dance, and cuisine.</p>
+                                                <p class="text-color6">The Maldives, a tropical paradise in the Indian Ocean, famous for its stunning natural beauty, rich culture, and luxurious resorts. There are over 1,000 coral islands with crystal-clear waters, pristine white-sand beaches, and vibrant marine life. Visitors can enjoy activities like diving, snorkeling, and fishing, while also experiencing traditional Maldivian music, dance, and cuisine.</p>
                                                 <div class="flex flex-wrap my-4">
                                                         <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">12 Days</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">Maldives</p></div>
@@ -377,11 +377,27 @@ Many of the best cities to visit in Canada are gateways to magnificent wildernes
                                              </figcaption>
                                      </figure>
                                      <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
-                                        <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative">     <img src="img/iefil tower1.jpg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
+                                        <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative"> <img src="img/iefil tower1.jpg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
                                              <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
                                              <figcaption class=" absolute h-[150px] w-[85%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
                                                      <p class="uppercase text-color4">Vacation</p>
-                                                     <p class="capitalize text-color3 font-secondary text-2xl">Paris<br> Spain, Europe </p>
+                                                     <p class="capitalize text-color3 font-secondary text-2xl">Paris<br> France, Europe </p>
+                                             </figcaption>
+                                     </figure>
+                                     <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
+                                        <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative"> <img src="img/nagrada familia.jpg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
+                                             <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
+                                             <figcaption class=" absolute h-[150px] w-[85%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
+                                                     <p class="uppercase text-color4">Vacation</p>
+                                                     <p class="capitalize text-color3 font-secondary text-2xl">Sagrada Familia<br> Spain, Europe </p>
+                                             </figcaption>
+                                     </figure>
+                                     <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
+                                        <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative"> <img src="img/SA.jpg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
+                                             <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
+                                             <figcaption class=" absolute h-[150px] w-[85%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
+                                                     <p class="uppercase text-color4">Vacation</p>
+                                                     <p class="capitalize text-color3 font-secondary text-2xl">Table Mountain<br> Cape Town, South Africa </p>
                                              </figcaption>
                                      </figure>
                         </div>
@@ -435,10 +451,11 @@ Many of the best cities to visit in Canada are gateways to magnificent wildernes
                         <div class="w-full md:w-[30%] flex flex-col py-2  my-5 md:ps-20 px-6 " >
                               <p class="font-secondary text-white text-xl xl:text-2xl">Quick Links</p>
                               <ul class="mt-7 px-6">
-                                <li class="my-2 list-disc marker:text-color1"><a href="https://www.flightaware.com/live/findflight?origin=abuja&destination=lagos"  target="_blank" class="text-color6">Flight Tracker</a></li>
+                                
                                 <li class="my-2 list-disc marker:text-color1"><a href="{{ url('/visa') }}" class="text-color6">Visa Advise</a></li>
                                 <li class="my-2 list-disc marker:text-color1"><a href="https://wa.me/+2349042153922" class="text-color6">Whatsapp</a></li>
-                                
+                                <li class="my-2 list-disc marker:text-color1"><a href="https://www.flightaware.com/live/findflight?origin=abuja&destination=lagos"  target="_blank" class="text-color6">Flight Tracker</a></li>
+                                <li class="my-2 list-disc marker:text-color1"><a href="https://www.timeanddate.com/worldclock/converter.html?iso=20241027T200000&p1=742&p2=776&p3=263" target=_blank class="text-color6">Time Zone Converter</a></li>
                         </ul>
                         </div>
                         <div class="w-full md:w-[28%] flex flex-col  py-2 my-5 px-6 md:px-0 " >
