@@ -203,7 +203,7 @@
                                                 <p class="text-color1 mb-4">$2.000 / per persons</p>
                                                 <p class="text-color6">Canada is a very unique country. It is vast — the second largest country in size in the world. Yet it is very sparsely populated. Its cities range from large, cosmopolitan cities like Toronto in Ontario to small outposts such as Whitehorse, the capital of the Yukon Territory.
 
-Many of the best cities to visit in Canada are gateways to magnificent wilderness areas and exciting recreational facilities, including some of the best ski resorts in the world.</p>
+Many of the best cities to visit in Canada are gateways to magnificent wilderness areas and exciting recreational facilities, with some of the best resorts in the world.</p>
                                                 <div class="flex flex-wrap my-4">
                                                         <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">7 Days</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">canada</p></div>
@@ -223,7 +223,7 @@ Many of the best cities to visit in Canada are gateways to magnificent wildernes
                                         <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
                                                 <p class="text-3xl text-color3 capitalize font-secondary">UAE</p>
                                                 <p class="text-color1 mb-4">$2.000 / per persons</p>
-                                                <p class="text-color6">Dubai is undoubtedly one of the most unique cities in the world. For those with an untreatable case of wanderlust, this city is a traveler's dream. Dubai has historic sights, futuristic architecture, active night life and out-of-this-world attractions.Before the skyscrapers and luxurious automobiles, Dubai was only sand. Although the city has long evolved from the days of Bedouin villages, the desert is still a sight to see.</p>
+                                                <p class="text-color6">Dubai is undoubtedly one of the most unique cities in the world. For those with an untreatable case of wanderlust, this city is a traveler's dream. Dubai has historic sights, futuristic architecture and out-of-this-world attractions.Before the skyscrapers and luxurious automobiles, Dubai was only sand. Although the city has long evolved from the days of Bedouin villages, the desert is still a sight to see.</p>
                                                 <div class="flex flex-wrap my-4">
                                                         <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">7 Days</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">dubai</p></div>
