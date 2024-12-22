@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
 </head>
-<body class="font-primary">
+<body class="font-primary" onload="alert('Here is whishing you a Merry Christmas and a Prosperous 2025!.')">
     <main class="w-full">
     <section class="w-full h-[100vh]  bg-header  bg-cover bg-no-repeat bg-center bg-color1 bg-blend-multiply bg-opacity-60 " >
         <section class="w-full flex flex-wrap justify-center ">
