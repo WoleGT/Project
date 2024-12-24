@@ -86,7 +86,7 @@
         <h1 class="w-full text-center text-white text-5xl md:text-7xl font-secondary uppercase tracking-widest">Explore The World With <span class="travol">Spicy Travels</span></h1>
         <br>
         <br>
-        <marquee direction="down" scrollamount="3">Here is wishing you a <span style="color:red;">Merry Christmas</span> and a Prosperous 2025...</marquee>  
+        <marquee direction="up" scrollamount="3">Here is wishing you a <span style="color:red;">Merry Christmas</span> and a Prosperous 2025...</marquee>  
         <iframe src="https://free.timeanddate.com/clock/i9ly5yft/n742/fn6/fs16/fcfff/tct/pct/ftb/pa8/tt0/tw1/tm1/th2/ta1/tb4" frameborder="0" width="162" height="56" allowtransparency="true"></iframe>
     </div>
    </section>
