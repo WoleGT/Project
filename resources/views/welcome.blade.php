@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
 </head>
-<body class="font-primary" onload="alert('Here is whishing you a Merry Christmas and a Prosperous 2025!.')">
+<body class="font-primary">
     <main class="w-full">
     <section class="w-full h-[100vh]  bg-header  bg-cover bg-no-repeat bg-center bg-color1 bg-blend-multiply bg-opacity-60 " >
         <section class="w-full flex flex-wrap justify-center ">
@@ -86,7 +86,7 @@
         <h1 class="w-full text-center text-white text-5xl md:text-7xl font-secondary uppercase tracking-widest">Explore The World With <span class="travol">Spicy Travels</span></h1>
         <br>
         <br>
-        <marquee direction="left"> A spicy way to explore...</marquee>  
+        <marquee direction="down" scrollamount="3">Here is wishing you a <span style="color:red;">Merry Christmas</span> and a <span style="color:green;">Prosperous 2025</span>...</marquee>  
         <iframe src="https://free.timeanddate.com/clock/i9ly5yft/n742/fn6/fs16/fcfff/tct/pct/ftb/pa8/tt0/tw1/tm1/th2/ta1/tb4" frameborder="0" width="162" height="56" allowtransparency="true"></iframe>
     </div>
    </section>
