@@ -477,7 +477,7 @@ Many of the best cities to visit in Canada are gateways to magnificent wildernes
                              </form>
                         </div>  
                 </div>
-                <p style="padding:20px; color:white; text-align:center">All Right Reserved.  2025 ©Spicy Travels n Tour Ltd RC: 1549808. <br> Website Developed & Maintained by <a href="https://wolegt.vercel.app/">wolegtconsulting.dev</p>
+                <p style="padding:20px; color:white; text-align:center">All Right Reserved.  2025 ©Spicy Travels n Tour Ltd RC: 1549808.  site developed by:<a href="https://wolegt.vercel.app/">wolegtconsulting.dev</a></p>
         </footer>
     </section>
     </main>
