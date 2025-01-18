@@ -86,7 +86,7 @@
         <h1 class="w-full text-center text-white text-5xl md:text-7xl font-secondary uppercase tracking-widest">Explore The World With <span class="travol">Spicy Travels</span></h1>
         <br>
         <br>
-        <marquee direction="left"><i>A Spicy way to explore...</i></marquee>  
+        <marquee direction="left" scrolldelay="100"><i>A Spicy way to explore...</i></marquee>  
         <iframe src="https://free.timeanddate.com/clock/i9ly5yft/n742/fn6/fs16/fcfff/tct/pct/ftb/pa8/tt0/tw1/tm1/th2/ta1/tb4" frameborder="0" width="162" height="56" allowtransparency="true"></iframe>
     </div>
    </section>
@@ -477,7 +477,7 @@ Many of the best cities to visit in Canada are gateways to magnificent wildernes
                              </form>
                         </div>  
                 </div>
-                <p style="padding:20px; color:white; text-align:center">All Right Reserved.  2024 ©Spicy Travels n Tour Ltd RC: 1549808</p>
+                <p style="padding:20px; color:white; text-align:center">All Right Reserved.  2025 ©Spicy Travels n Tour Ltd RC: 1549808. <br> Website Developed & Maintained by <a href="https://wolegt.vercel.app/">wolegtconsulting.dev</p>
         </footer>
     </section>
     </main>
