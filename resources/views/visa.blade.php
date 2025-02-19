@@ -62,6 +62,7 @@
            <br>
            <marquee direction="left" scrolldelay="110">30mins per session at a fee of 20,000 Naira </marquee>
          </form>
+         <a href="{{ url('/cardpayment') }}"><button type="submit" style="background-color:green; border-radius:5px; border-color:white; cursor:pointer" >Pay with Bank Card</button></a>
          <div>        
       </div>
    </div>
