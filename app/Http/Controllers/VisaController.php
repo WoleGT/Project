@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use App\Models\Visa;
 use Illuminate\Http\Request;
 use App\Http\Requests\VisaRequest;
+use Illuminate\Support\Facades\Notification;
+use App\Mail\VisaMail;
+use Mail;
+
 
 class VisaController extends Controller
 {
@@ -17,7 +21,7 @@ class VisaController extends Controller
 {
     $data = $request->validated();
 
-           
+    dd($data);   
     Visa::create([
         'name'=> $request->input('name'),
         'email'=> $request->input('email'),
@@ -27,7 +31,11 @@ class VisaController extends Controller
         'time'=> $request->input('time')
     ]);
 
-    return back()->with("msg","Successful! please pay into 0037010097 | SpicyTravels n Tour Ltd | StanbicIBTC");
+
+    Mail::to('info@spicytravelsntour.com')->send(new VisaMail($visa));
+
+
+    return back()->with("msg","Successful! please pay into 0037010097 | SpicyTravels n Tour Ltd | StanbicIBTC or use pay with card using button below" );
 
 }
 
