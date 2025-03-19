@@ -21,8 +21,8 @@ class VisaController extends Controller
 {
     $data = $request->validated();
 
-    dd($data);   
-    Visa::create([
+      
+    $visa = Visa::create([
         'name'=> $request->input('name'),
         'email'=> $request->input('email'),
         'phone_number'=> $request->input('phone_number'),
@@ -31,6 +31,8 @@ class VisaController extends Controller
         'time'=> $request->input('time')
     ]);
 
+  
+        
 
     Mail::to('info@spicytravelsntour.com')->send(new VisaMail($visa));
 
