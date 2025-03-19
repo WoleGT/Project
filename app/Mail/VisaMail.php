@@ -27,7 +27,7 @@ class VisaMail extends Mailable
 
     public function build()
     {
-        return $this->subject('New Visa Form Submission')
+        return $this->subject('Consultation Booking Alert!')
                     ->view('emails.visa');
     }
 
