@@ -26,3 +26,6 @@ Route::get('/visa', [VisaController::class, 'index']);
 Route::post('/submit-visa-form', [VisaController::class, 'store']);
 Route::post('/submit-newsletter-form', [NewsletterController::class, 'store']);
 Route::get('/cardpayment', [CardPaymentController::class, 'index']);
+
+// mail notification
+Route::post('/submit-visa-form', [VisaController::class, 'store'])->name('visa.store');
