@@ -460,10 +460,10 @@ Many of the best cities to visit in Canada are gateways to magnificent wildernes
                               <p class="font-secondary text-white text-xl xl:text-2xl">Quick Links</p>
                               <ul class="mt-7 px-6">
                                 
-                                <li class="my-2 list-disc marker:text-color1"><a href="{{ url('/visa') }}" class="text-color6">Visa Advise</a></li>
-                                <li class="my-2 list-disc marker:text-color1"><a href="https://wa.me/+2349042153922" class="text-color6">Whatsapp</a></li>
-                                <li class="my-2 list-disc marker:text-color1"><a href="https://www.flightaware.com/live/findflight?origin=abuja&destination=lagos"  target="_blank" class="text-color6">Flight Tracker</a></li>
-                                <li class="my-2 list-disc marker:text-color1"><a href="https://www.timeanddate.com/worldclock/converter.html?iso=20241027T200000&p1=742&p2=776&p3=263" target=_blank class="text-color6">Time Zone Converter</a></li>
+                                 <li class="my-2 list-disc marker:text-color1"><a href="https://www.flightaware.com/live/findflight?origin=abuja&destination=lagos"  target="_blank" class="text-color6">Flight Tracker</a></li>
+                                 <li class="my-2 list-disc marker:text-color1"><a href="https://www.timeanddate.com/worldclock/converter.html?iso=20241027T200000&p1=742&p2=776&p3=263" target=_blank class="text-color6">Time Zone Converter</a></li>
+                                <li class="my-2 list-disc marker:text-color1"><a href="{{ url('/visa') }}" class="text-color6">Visa Consultation</a></li>
+                                <li class="my-2 list-disc marker:text-color1"><a href="https://wa.me/+2349042153922" class="text-color6">Whatsapp</a></li>                                                   
                         </ul>
                         </div>
                         <div class="w-full md:w-[28%] flex flex-col  py-2 my-5 px-6 md:px-0 " >
