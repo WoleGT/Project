@@ -79,7 +79,7 @@
     <div class=" w-1/2 h-full flex justify-end items-center ">
         <i class="bi bi-list text-3xl text-white cursor-pointer ham-menu-icon"></i>
     </div>
-    <nav class="menu hidden h-[100px] w-full absolute bg-white left-0 top-[90px]   z-30 ">
+    <nav class="menu hidden h-[50px] w-full absolute bg-white left-0 top-[90px]   z-30 ">
       <ul class="h-full w-full flex flex-col  justify-center ms-6">
          <li class="list-none my-3"><a
                  class="decoration-none text-color2 flex hover:text-color4  transition-all duration-600"
@@ -92,9 +92,9 @@
         <!-- form -->
       <div class="w-full h-auto flex flex-col items-center justify-center 2xl:px-36 pt-10">
          <h1 class="text-2xl md:text-3xl lg:text-4xl text-color font-secondary">Visa Consultation Form</h1>
-         <p class="text-color text-lg md:text-xl lg:text-2xl font-secondary">Fill the form below to book a consultation with our visa expert for a non-refundable fee of ₦20,000. </p>
+         <p class="text-color text-lg md:text-xl lg:text-2xl font-secondary justify-center">Fill the form below to book a consultation with our visa expert for a non-refundable fee of ₦20,000. </p>
          @if (session('msg'))
-         <p style="color: white; font-weight: bold; font-size: 20px; margin-top: 10px;">
+         <p style="color: white; font-weight: bold; font-size: 20px; margin-top: 10px; text-align: center;">
          {!! session('msg') !!}
          </p>
          @endif
@@ -107,7 +107,7 @@
          <form action="{{url('submit-visa-form') }}" method="post">
            @csrf 
            <div>
-           <lable for="name">Name</label>
+           <lable style="font-weight: bold">Name</label>
            <br>
            <input type="text" name="name" id="name"  placeholder="enter your full name" required>
            </div>
