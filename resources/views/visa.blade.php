@@ -65,9 +65,7 @@
             <nav class="h-[100%] md:w-[70%]">
                 <ul class="h-[100%] flex items-center gap-8 justify-end">
                     <li class="list-none"><a class="decoration-none text-white hover:text-color3 transition-all duration-500"
-                            href="{{url('/') }}">Home</a></li> 
-                    
-                         
+                            href="{{url('/') }}">Home</a></li>               
                 </ul>
             </nav>
         </header>
@@ -75,38 +73,46 @@
         
 
         <!-- form -->
-      <div>
-         {!! session ('msg')!!}
-         <br>
-         <br>
+      <div class="w-full h-auto flex flex-col items-center justify-center 2xl:px-36 pt-10">
+         <h1 class="text-2xl md:text-3xl lg:text-4xl text-color1 font-secondary">Visa Consultation Form</h1>
+         <p class="text-color6 text-lg md:text-xl lg:text-2xl font-secondary">Fill the form below to book a consultation with our visa expert for just ₦20,000. </p> <br>
+         @if (session('msg'))
+         <p class="alert alert-success">
+         {!! session('msg') !!}
+         </p>
+         @endif
+         @if (session('error'))
+         <p class="alert alert-danger">
+         {!! session('error.') !!}
+         @endif
+         </p>
+         <p class="text-color6 text-lg md:text-xl lg:text-2xl font-secondary">Please note that the consultation fee is non-refundable.</p>
+
          <form action="{{url('submit-visa-form') }}" method="post">
-           @csrf
-           <div>
-           <strong>VISA CONSULTATION FORM</strong>
-           </div> 
+           @csrf 
            <br> 
            <div>
            <lable for="name">Name</label>
            <br>
-           <input type="text" name="name" id="name"  placeholder="enter your full name">
+           <input type="text" name="name" id="name"  placeholder="enter your full name" required>
            </div>
            <br>
            <div>
            <lable>Email</label>
            <br>
-           <input type="email" name="email" placeholder=" e.g email@example.com">
+           <input type="email" name="email" placeholder="e.g email@example.com" required>
            </div>
            <br>
            <div>
            <lable>Phone Number</label>
            <br>
-           <input type="text" name="phone_number" placeholder="e.g +234 8023000000">
+           <input type="text" name="phone_number" placeholder="e.g +234 8023000000" required>
            </div>
            <br>
            <div>
            <lable>Visa Type</label>
            <br>
-           <input type="text" name="visa_type" placeholder="e.g Visitor or Work">
+           <input type="text" name="visa_type" placeholder="e.g Visitor or Work" required>
            </div> 
            <br>
            <div>
@@ -121,8 +127,7 @@
            <input type="time" name="time">
            </div>
            <br>
-           <div>
-           <p>You will get 30 minutes of expert guidance for just ₦20,000.</p>
+           <div>      
            <button type="submit" class="button" role="button">Book now</button>
            </div>
            <br> 
@@ -131,7 +136,6 @@
 
       <!-- Footer -->
 
-      </section>
     <section class="w-full flex justify-center h-auto  bg-color3" id="contact">
         <footer class="w-full container h-auto flex flex-col 2xl:px-36 ">
                 <div class="flex justify-center border items-center boder-1 border-color5 my-10 flex-wrap mx-6 ">
@@ -177,7 +181,6 @@
                               @csrf
                               <input type="email" name="email" placeholder="Email Address" class="px-2 py-5">
                               <button type="submit" a href="" class="text-white bg-color4 py-5 px-3 flex mt-0 md:mt-2 lg:mt-0">Send</button>
-                              {!! session ('msg')!!}
                              </form>
                         </div>  
                 </div>
