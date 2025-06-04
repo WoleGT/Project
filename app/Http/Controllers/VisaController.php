@@ -33,7 +33,7 @@ class VisaController extends Controller
 
     Mail::to('info@spicytravelsntour.com')->send(new VisaMail($visa));
 
-    return back()->with("msg","Booked! Pay to 0037010097 - SpicyTravels n Tour Ltd (StanbicIBTC Bank)" );
+    return back()->with("msg","Booked! Pay to 0037010097 - SpicyTravels n Tour Ltd (StanbicIBTC)" );
 
 }
 
