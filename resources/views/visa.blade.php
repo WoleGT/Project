@@ -70,27 +70,42 @@
             </nav>
         </header>
 
-        
+      <!-- header mobile -->
+   <header
+     class="w-[95%] sm:w-[70%] md:w-[80%] container flex h-[60px] justify-between  items-center  lg:hidden  py-[45px] relative border-b-[1px] border-white border-opacity-40 ">
+    <figure class="w-[140px]"> 
+    <img src="./img/spicy banner.jpg" alt="" class="w-[50%] text-white  bg-color1 p-3 rounded-[50%]" id="logo">
+    </figure>
+    <div class=" w-1/2 h-full flex justify-end items-center ">
+        <i class="bi bi-list text-3xl text-white cursor-pointer ham-menu-icon"></i>
+    </div>
+    <nav class="menu hidden h-[400px] w-full absolute bg-white left-0 top-[90px]   z-30 ">
+      <ul class="h-full w-full flex flex-col  justify-center ms-6">
+         <li class="list-none my-3"><a
+                 class="decoration-none text-color2 flex hover:text-color4  transition-all duration-600"
+                 href="{{url('/') }}">Home</a>
+         </li>
+      </ul>
+    </nav>
+</header>      
 
         <!-- form -->
       <div class="w-full h-auto flex flex-col items-center justify-center 2xl:px-36 pt-10">
-         <h1 class="text-2xl md:text-3xl lg:text-4xl text-color1 font-secondary">Visa Consultation Form</h1>
-         <p class="text-color6 text-lg md:text-xl lg:text-2xl font-secondary">Fill the form below to book a consultation with our visa expert for just ₦20,000. </p> <br>
+         <h1 class="text-2xl md:text-3xl lg:text-4xl text-color font-secondary">Visa Consultation Form</h1>
+         <p class="text-color text-lg md:text-xl lg:text-2xl font-secondary">Fill the form below to book a consultation with our visa expert for a non-refundable fee of ₦20,000. </p>
          @if (session('msg'))
-         <p class="alert alert-success">
+         <p style="color: blue; font-weight: bold; font-size: 20px; margin-top: 10px;">
          {!! session('msg') !!}
          </p>
          @endif
          @if (session('error'))
-         <p class="alert alert-danger">
+         <p style="color: red; font-weight: bold; font-size: 20px; margin-top: 10px;">
          {!! session('error.') !!}
          @endif
          </p>
-         <p class="text-color6 text-lg md:text-xl lg:text-2xl font-secondary">Please note that the consultation fee is non-refundable.</p>
 
          <form action="{{url('submit-visa-form') }}" method="post">
            @csrf 
-           <br> 
            <div>
            <lable for="name">Name</label>
            <br>
