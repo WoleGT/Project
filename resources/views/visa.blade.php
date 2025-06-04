@@ -79,7 +79,7 @@
     <div class=" w-1/2 h-full flex justify-end items-center ">
         <i class="bi bi-list text-3xl text-white cursor-pointer ham-menu-icon"></i>
     </div>
-    <nav class="menu hidden h-[400px] w-full absolute bg-white left-0 top-[90px]   z-30 ">
+    <nav class="menu hidden h-[100px] w-full absolute bg-white left-0 top-[90px]   z-30 ">
       <ul class="h-full w-full flex flex-col  justify-center ms-6">
          <li class="list-none my-3"><a
                  class="decoration-none text-color2 flex hover:text-color4  transition-all duration-600"
@@ -94,7 +94,7 @@
          <h1 class="text-2xl md:text-3xl lg:text-4xl text-color font-secondary">Visa Consultation Form</h1>
          <p class="text-color text-lg md:text-xl lg:text-2xl font-secondary">Fill the form below to book a consultation with our visa expert for a non-refundable fee of ₦20,000. </p>
          @if (session('msg'))
-         <p style="color: blue; font-weight: bold; font-size: 20px; margin-top: 10px;">
+         <p style="color: white; font-weight: bold; font-size: 20px; margin-top: 10px;">
          {!! session('msg') !!}
          </p>
          @endif
@@ -113,31 +113,31 @@
            </div>
            <br>
            <div>
-           <lable>Email</label>
+           <lable style="font-weight: bold">Email</label>
            <br>
            <input type="email" name="email" placeholder="e.g email@example.com" required>
            </div>
            <br>
            <div>
-           <lable>Phone Number</label>
+           <lable style="font-weight: bold">Phone Number</label>
            <br>
            <input type="text" name="phone_number" placeholder="e.g +234 8023000000" required>
            </div>
            <br>
            <div>
-           <lable>Visa Type</label>
+           <lable style="font-weight: bold">Visa Type</label>
            <br>
            <input type="text" name="visa_type" placeholder="e.g Visitor or Work" required>
            </div> 
            <br>
            <div>
-           <lable>Date</label>
+           <lable style="font-weight: bold">Date</label>
            <br>
            <input type="date" name="date">
            </div>
            <br>
            <div>
-           <lable>Time</label>
+           <lable style="font-weight: bold">Time</label>
            <br>
            <input type="time" name="time">
            </div>
