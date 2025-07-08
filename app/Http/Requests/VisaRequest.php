@@ -25,7 +25,7 @@ class VisaRequest extends FormRequest
             "name"=> ["required|string|max:255"],
             "email"=> ["required|email|unique:visas,email"],
             "phone_number"=> ["required|string|max:15"],
-            "visa_type"=> ["required|string|max:255"],
+            "visa_type"=> ["required"],
             "date"=> ["required|date"],
             "time"=> ["required|date_format:H:i"],
         ];
