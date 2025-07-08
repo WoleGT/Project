@@ -15,7 +15,7 @@ class VisaRequest extends FormRequest
     {
         return [
             'name' => 'required|string|max:255',
-            'email' => 'required|email|unique:visa,email',
+            'email' => 'required|email|unique:visas,email',
             'phone_number' => 'required|string|max:15',
             'visa_type' => 'required|string|in:Work,Study,Tourism,Business',
             'date' => 'required|date',
