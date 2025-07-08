@@ -142,7 +142,7 @@
         <label for="email" style="font-weight: bold">Email</label><br>
         <input type="email" 
         name="email" 
-        placeholder="example@email.com" 
+        placeholder="enter your email address" 
         required 
         class="form-control w-full px-4 py-3 border border-gray-300 rounded-md text-lg placeholder-gray-500"
         value="{{ old('email') }}">
@@ -156,8 +156,8 @@
         <div>
         <label for="phone_number" style="font-weight: bold">Phone Number</label><br>
         <input type="text" type="phone_number" 
-        name="name" 
-        placeholder="+234 9042153922" 
+        name="phone_number" 
+        placeholder="enter your phone number" 
         value="{{ old('phone_number') }}" 
         required 
         class="form-control w-full px-4 py-3 border border-gray-300 rounded-md text-lg placeholder-gray-500">
