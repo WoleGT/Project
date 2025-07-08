@@ -87,73 +87,114 @@
          </li>
       </ul>
     </nav>
-</header>      
+  </header>      
 
         <!-- form -->
       <div class="w-full h-auto flex flex-col items-center justify-center 2xl:px-36 pt-10">
          <h1 class="text-2xl md:text-3xl lg:text-4xl text-color font-secondary">Visa Consultation Form</h1>
          <p class="text-color text-lg md:text-xl lg:text-2xl font-secondary justify-center">Fill the form below to book a consultation with our visa expert for a non-refundable fee of ₦20,000. </p>
-         @if (session('msg'))
-         <p style="color: white; font-weight: bold; font-size: 20px; margin-top: 10px; text-align: center;">
-         {!! session('msg') !!}
-         </p>
-         @endif
-         @if (session('error'))
-         <p style="color: red; font-weight: bold; font-size: 20px; margin-top: 10px;">
-         {!! session('error.') !!}
-         @endif
-         </p>
+         {{-- Success Message --}}
+        {{-- ✅ Success Message --}}
+        @if (session('msg'))
+         <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mt-4 text-center" role="alert">
+        <strong class="font-bold">Success!</strong>
+        <span class="block sm:inline">{!! session('msg') !!}</span>
+        </div>
+        @endif
 
-         <form action="{{url('submit-visa-form') }}" method="post">
-           @csrf 
-           <div>
-           <lable style="font-weight: bold">Name</label>
-           <br>
-           <input type="text" name="name" id="name"  placeholder="enter your full name" required>
-           </div>
-           <br>
-           <div>
-           <lable style="font-weight: bold">Email</label>
-           <br>
-           <input type="email" name="email" placeholder="e.g email@example.com" required>
-           </div>
-           <br>
-           <div>
-           <lable style="font-weight: bold">Phone Number</label>
-           <br>
-           <input type="text" name="phone_number" placeholder="e.g +234 8023000000" required>
-           </div>
-           <br>
-           <div>
-           <lable style="font-weight: bold">Visa Type</label>
-           <br>
-           <input type="text" name="visa_type" placeholder="e.g Visitor or Work" required>
-           </div> 
-           <br>
-           <div>
-           <lable style="font-weight: bold">Date</label>
-           <br>
-           <input type="date" name="date">
-           </div>
-           <br>
-           <div>
-           <lable style="font-weight: bold">Time</label>
-           <br>
-           <input type="time" name="time">
-           </div>
-           <br>
-           <div>      
-           <button type="submit" class="button" role="button">Book now</button>
-           </div>
-           <br> 
-         </form>      
-      </div>
+        {{-- ❌ Error Message --}}
+        @if (session('error'))
+        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mt-4 text-center" role="alert">
+        <strong class="font-bold">Oops!</strong>
+        <span class="block sm:inline">{!! session('error') !!}</span>
+        </div>
+        @endif
+
+
+         
+
+        <form action="{{ url('submit-visa-form') }}" method="post">
+        @csrf
+
+        {{-- Name --}}
+        <div>
+                <label for="name" style="font-weight: bold">Name</label><br>
+                <input type="text" name="name" id="name" placeholder="Enter your full name" required class="form-control" value="{{ old('name') }}">
+                @error('name')
+                <div class="text-danger">{{ $message }}</div>
+                @enderror
+        </div>
+        <br>
+
+        {{-- Email --}}
+        <div>
+        <label for="email" style="font-weight: bold">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="e.g email@example.com" required class="form-control" value="{{ old('email') }}">
+        @error('email')
+        <div class="text-danger">{{ $message }}</div>
+        @enderror
+         </div>
+        <br>
+
+        {{-- Phone Number --}}
+        <div>
+        <label for="phone_number" style="font-weight: bold">Phone Number</label><br>
+        <input type="text" name="phone_number" id="phone_number" placeholder="e.g +234 8023000000" required class="form-control" value="{{ old('phone_number') }}">
+        @error('phone_number')
+        <div class="text-danger">{{ $message }}</div>
+        @enderror
+        </div>
+        <br>
+
+        {{-- Visa Type --}}
+        <div>
+                <label for="visa_type" style="font-weight: bold">Visa Type</label><br>
+                <select name="visa_type" id="visa_type" class="form-control" required>
+                <option value="" disabled selected>-- Kindly select visa type --</option>
+                <option value="Work" {{ old('visa_type') == 'Work' ? 'selected' : '' }}>Work</option>
+                <option value="Study" {{ old('visa_type') == 'Study' ? 'selected' : '' }}>Study</option>
+                <option value="Tourism" {{ old('visa_type') == 'Tourism' ? 'selected' : '' }}>Tourism</option>
+                <option value="Business" {{ old('visa_type') == 'Business' ? 'selected' : '' }}>Business</option>
+                </select>
+                @error('visa_type')
+                <div class="text-danger">{{ $message }}</div>
+                @enderror
+        </div>
+        <br>
+
+        {{-- Date --}}
+         <div>
+                <label for="date" style="font-weight: bold">Date</label><br>
+                <input type="date" name="date" id="date" required class="form-control" value="{{ old('date') }}">
+                @error('date')
+                <div class="text-danger">{{ $message }}</div>
+                @enderror
+        </div>
+        <br>
+
+        {{-- Time --}}
+        <div>
+                <label for="time" style="font-weight: bold">Time</label><br>
+                <input type="time" name="time" id="time" required class="form-control" value="{{ old('time') }}">
+                @error('time')
+                <div class="text-danger">{{ $message }}</div>
+                @enderror
+        </div>
+        <br>
+
+        {{-- Submit --}}
+        <div>
+                <button type="submit" class="button" role="button">Book now</button>
+        </div>
+        <br>
+        </form>
+        </div>
 
       <!-- Footer -->
 
-    <section class="w-full flex justify-center h-auto  bg-color3" id="contact">
-        <footer class="w-full container h-auto flex flex-col 2xl:px-36 ">
-                <div class="flex justify-center border items-center boder-1 border-color5 my-10 flex-wrap mx-6 ">
+        <section class="w-full flex justify-center h-auto  bg-color3" id="contact">
+                <footer class="w-full container h-auto flex flex-col 2xl:px-36 ">
+                        <div class="flex justify-center border items-center boder-1 border-color5 my-10 flex-wrap mx-6 ">
                         <div class="w-full lg:w-[30%] flex  items-center py-2 lg:border-r-2 lg:border-r-color5 my-5 ps-8 lg:ps-0" >
                                 <i class="bi bi-telephone-outbound text-4xl me-4 text-white bg-color1 p-3"></i>
                                 <div class="w-full text-white"><p class="font-secondary">Call us</p><p>+234 9042153922</p></div>
@@ -166,8 +207,8 @@
                                 <i class="bi bi-map text-4xl me-4 text-white bg-color1 p-3 "></i>
                                 <div class="w-full text-white"><p class="font-secondary">Address</p><p>Nigeria </p></div>
                         </div>
-                </div>
-                <div class="flex  justify-between  my-10 flex-wrap  ">
+                        </div>
+                        <div class="flex  justify-between  my-10 flex-wrap  ">
                         <div class="w-full md:w-[30%] flex flex-col py-2  my-5 px-6 " >
                                 <figure class="w-[80%]">
                                         <img src="./img/spicy banner.jpg" alt="" class="w-[50%] text-white  bg-color1 p-3 rounded-[50%]" id="logo4">
@@ -198,9 +239,9 @@
                               <button type="submit" a href="" class="text-white bg-color4 py-5 px-3 flex mt-0 md:mt-2 lg:mt-0">Send</button>
                              </form>
                         </div>  
-                </div>
-                <p style="padding:20px; color:white; text-align:center">© 2025 Spicy Travels n Tour Ltd. All Right Reserved | developed by <a href="https://wolegt.vercel.app/" target="_blank" style="text-decoration: underline;"> wolegtconsulting.dev</a></p>
-        </footer>
+                        </div>
+                        <p style="padding:20px; color:white; text-align:center">© 2025 Spicy Travels n Tour Ltd. All Right Reserved | developed by <a href="https://wolegt.vercel.app/" target="_blank" style="text-decoration: underline;"> wolegtconsulting.dev</a></p>
+                </footer>
     </section>
    
 </body>
