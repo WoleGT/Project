@@ -51,6 +51,12 @@
   }
 }
 
+::placeholder {
+  font-size: 1rem; /* You can tweak this */
+  color: #6c757d;  /* Slightly darker for better visibility */
+  font-weight: 500;
+}
+
 </style>
 
 <body class="font-primary">
@@ -119,7 +125,12 @@
         {{-- Name --}}
         <div>
                 <label for="name" style="font-weight: bold">Name</label><br>
-                <input type="text" name="name" id="name" placeholder="Enter your full name" required class="form-control" value="{{ old('name') }}">
+                <input type="text" 
+                 name="name" 
+                 placeholder="Enter your full name" 
+                 required 
+                 class="form-control w-full px-4 py-3 border border-gray-300 rounded-md text-lg placeholder-gray-500"
+                 value="{{ old('name') }}">
                 @error('name')
                 <div class="text-danger">{{ $message }}</div>
                 @enderror
@@ -129,7 +140,12 @@
         {{-- Email --}}
         <div>
         <label for="email" style="font-weight: bold">Email</label><br>
-        <input type="email" name="email" id="email" placeholder="e.g email@example.com" required class="form-control" value="{{ old('email') }}">
+        <input type="email" 
+        name="email" 
+        placeholder="example@email.com" 
+        required 
+        class="form-control w-full px-4 py-3 border border-gray-300 rounded-md text-lg placeholder-gray-500"
+        value="{{ old('email') }}">
         @error('email')
         <div class="text-danger">{{ $message }}</div>
         @enderror
@@ -139,7 +155,12 @@
         {{-- Phone Number --}}
         <div>
         <label for="phone_number" style="font-weight: bold">Phone Number</label><br>
-        <input type="text" name="phone_number" id="phone_number" placeholder="e.g +234 8023000000" required class="form-control" value="{{ old('phone_number') }}">
+        <input type="text" type="phone_number" 
+        name="name" 
+        placeholder="+234 9042153922" 
+        value="{{ old('phone_number') }}" 
+        required 
+        class="form-control w-full px-4 py-3 border border-gray-300 rounded-md text-lg placeholder-gray-500">
         @error('phone_number')
         <div class="text-danger">{{ $message }}</div>
         @enderror
@@ -149,7 +170,7 @@
         {{-- Visa Type --}}
         <div>
                 <label for="visa_type" style="font-weight: bold">Visa Type</label><br>
-                <select name="visa_type" id="visa_type" class="form-control" required>
+                <select name="visa_type" id="visa_type" class="form-control" required class="form-control w-full px-4 py-3 border border-gray-300 rounded-md text-lg font-semibold text-gray-800">
                 <option value="" disabled selected>-- Kindly select visa type --</option>
                 <option value="Work" {{ old('visa_type') == 'Work' ? 'selected' : '' }}>Work</option>
                 <option value="Study" {{ old('visa_type') == 'Study' ? 'selected' : '' }}>Study</option>
@@ -165,7 +186,11 @@
         {{-- Date --}}
          <div>
                 <label for="date" style="font-weight: bold">Date</label><br>
-                <input type="date" name="date" id="date" required class="form-control" value="{{ old('date') }}">
+                <input type="date" 
+                 name="date" 
+                 placeholder="Select date" 
+                 required 
+                 class="form-control w-full px-4 py-3 border border-gray-300 rounded-md text-lg placeholder-gray-500">
                 @error('date')
                 <div class="text-danger">{{ $message }}</div>
                 @enderror
@@ -175,7 +200,11 @@
         {{-- Time --}}
         <div>
                 <label for="time" style="font-weight: bold">Time</label><br>
-                <input type="time" name="time" id="time" required class="form-control" value="{{ old('time') }}">
+                <input type="time" 
+                name="time" 
+                placeholder="Select time" 
+                required 
+                class="form-control w-full px-4 py-3 border border-gray-300 rounded-md text-lg placeholder-gray-500">
                 @error('time')
                 <div class="text-danger">{{ $message }}</div>
                 @enderror
