@@ -248,25 +248,25 @@ Many of the best cities to visit in Canada are gateways to magnificent wildernes
                 <div class="w-full md:w-[20%] my-5 ">
                         <figure class="flex flex-col items-center  group">
                                 <div class="bg-white bg-opacity-50  rounded-[50%] p-5 flex items-center relative overflow-hidden outline outline-8  outline-offset-8 out  "><i class="bi bi-airplane text-5xl text-white absolute ms-[-100%] group-hover:ms-[0%] transition-all duration-300"></i><i class="bi bi-airplane text-5xl text-white  group-hover:ms-[200%] transition-all duration-300"></i></div>
-                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">1000</p><p class="text-xl">Flight Booking</p></figcaption>
+                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">100,000</p><p class="text-xl">Flight Booking</p></figcaption>
                         </figure>
                 </div>
                 <div class="w-full md:w-[20%] my-5">
                         <figure class="flex flex-col items-center  group">
                                 <div class="bg-white bg-opacity-50  rounded-[50%] p-5 flex items-center relative overflow-hidden outline outline-8  outline-offset-8 out  "><i class="bi bi-house-heart text-5xl text-white absolute ms-[-100%] group-hover:ms-[0%] transition-all duration-300"></i><i class="bi bi-house-heart text-5xl text-white  group-hover:ms-[200%] transition-all duration-300"></i></div>
-                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">100</p><p class="text-xl">Amazing Tour</p></figcaption>
+                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">2,000</p><p class="text-xl">Amazing Tour</p></figcaption>
                         </figure>
                 </div>
                 <div class="w-full md:w-[20%] my-5">
                         <figure class="flex flex-col items-center  group">
                                 <div class="bg-white bg-opacity-50  rounded-[50%] p-5 flex items-center relative overflow-hidden outline outline-8  outline-offset-8 out  "><i class="bi bi-rocket text-5xl text-white absolute ms-[-100%] group-hover:ms-[0%] transition-all duration-300"></i><i class="bi bi-rocket text-5xl text-white  group-hover:ms-[200%] transition-all duration-300"></i></div>
-                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">50</p><p class="text-xl">Cruises Booking</p></figcaption>
+                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">500</p><p class="text-xl">Cruises Booking</p></figcaption>
                         </figure>
                 </div>
                 <div class="w-full md:w-[20%] my-5">
                         <figure class="flex flex-col items-center  group">
                                 <div class="bg-white bg-opacity-50  rounded-[50%] p-5 flex items-center relative overflow-hidden outline outline-8  outline-offset-8 out  "><i class="bi bi-postage-heart text-5xl text-white absolute ms-[-100%] group-hover:ms-[0%] transition-all duration-300"></i><i class="bi bi-postage-heart text-5xl text-white  group-hover:ms-[200%] transition-all duration-300"></i></div>
-                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">250</p><p class="text-xl">Hotel Booking</p></figcaption>
+                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">20,000</p><p class="text-xl">Hotel Booking</p></figcaption>
                         </figure>
                 </div>
              
