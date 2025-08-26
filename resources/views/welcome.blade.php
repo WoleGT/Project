@@ -363,76 +363,76 @@ Many of the best cities to visit in Canada are gateways to magnificent wildernes
                                 <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
                                    <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative">     <img src="img/White House_Washington D.C.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
                                         <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
-                                        <figcaption class=" absolute h-[100px] w-[50%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-8 group-hover:bottom-10 transition-all duration-1000 ">
+                                        <figcaption class=" absolute h-[100px] w-[60%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-8 group-hover:bottom-10 transition-all duration-1000 ">
                                                 <p class="uppercase text-color4">Travel</p>
-                                                <p class="capitalize text-color3 font-secondary text-2xl">Washington D.C <br> USA</p>
+                                                <p class="capitalize text-color3 font-secondary text-xl">Washington D.C <br> USA</p>
                                         </figcaption>
                                 </figure>
                                 <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
                                         <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative"> <img src="img/Grasse, French Riviera.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
                                              <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
-                                             <figcaption class=" absolute h-[100px] w-[50%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-3 group-hover:bottom-10 transition-all duration-1000 ">
+                                             <figcaption class=" absolute h-[100px] w-[60%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-3 group-hover:bottom-10 transition-all duration-1000 ">
                                                      <p class="uppercase text-color4">Tour</p>
-                                                     <p class="capitalize text-color3 font-secondary text-2xl">Grasse <br> French Riveria</p>
+                                                     <p class="capitalize text-color3 font-secondary text-xl">Grasse <br> French Riveria</p>
                                              </figcaption>
                                      </figure>
                                      <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
                                         <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative"> <img src="img/TimesSquare_Newyork.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
                                              <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
-                                             <figcaption class=" absolute h-[100px] w-[50%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
+                                             <figcaption class=" absolute h-[100px] w-[60%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
                                                      <p class="uppercase text-color4">Vacation</p>
-                                                     <p class="capitalize text-color3 font-secondary text-2xl">New York City<br> USA </p>
+                                                     <p class="capitalize text-color3 font-secondary text-xl">New York City<br> USA </p>
                                              </figcaption>
                                      </figure>
                                      <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
                                         <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative"> <img src="img/Vienna_AUSTRIA.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
                                              <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
-                                             <figcaption class=" absolute h-[100px] w-[50%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
+                                             <figcaption class=" absolute h-[100px] w-[60%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
                                                      <p class="uppercase text-color4">Travel</p>
-                                                     <p class="capitalize text-color3 font-secondary text-2xl">Vienna<br> Austria, Europe </p>
+                                                     <p class="capitalize text-color3 font-secondary text-xl">Vienna<br> Austria, Europe </p>
                                              </figcaption>
                                      </figure>
                                      <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
                                         <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative"> <img src="img/Nice_French_Riviera.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
                                              <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
-                                             <figcaption class=" absolute h-[100px] w-[50%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
+                                             <figcaption class=" absolute h-[100px] w-[60%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
                                                      <p class="uppercase text-color4">Tour</p>
-                                                     <p class="capitalize text-color3 font-secondary text-2xl">Nice<br> French Riviera </p>
+                                                     <p class="capitalize text-color3 font-secondary text-xl">Nice<br> French Riviera </p>
                                              </figcaption>
                                      </figure>
                                      <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
                                         <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative"> <img src="img/Bratislava_SLOVAKIA.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
                                              <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
-                                             <figcaption class=" absolute h-[100px] w-[50%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
+                                             <figcaption class=" absolute h-[100px] w-[60%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
                                                      <p class="uppercase text-color4">Vacation</p>
-                                                     <p class="capitalize text-color3 font-secondary text-2xl">Bratislava<br> Slovakia, Europe </p>
+                                                     <p class="capitalize text-color3 font-secondary text-xl">Bratislava<br> Slovakia, Europe </p>
                                              </figcaption>
                                      </figure>
 
                                      <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
                                         <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative"> <img src="img/pix5.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
                                              <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
-                                             <figcaption class="absolute h-[100px] w-[50%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
+                                             <figcaption class="absolute h-[100px] w-[60%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
                                                      <p class="uppercase text-color4">Hotel</p>
-                                                     <p class="capitalize text-color3 font-secondary text-2xl">Johannesburg<br> South Africa </p>
+                                                     <p class="capitalize text-color3 font-secondary text-xl">Johannesburg<br> South Africa </p>
                                              </figcaption>
                                      </figure>
 
                                      <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
                                         <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative"> <img src="img/New_York.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
                                              <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
-                                             <figcaption class=" absolute h-[100px] w-[50%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
+                                             <figcaption class=" absolute h-[100px] w-[60%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
                                                      <p class="uppercase text-color4">Vacation</p>
-                                                     <p class="capitalize text-color3 font-secondary text-2xl">Times Square<br> NYC, USA </p>
+                                                     <p class="capitalize text-color3 font-secondary text-xl">Times Square<br> NYC, USA </p>
                                              </figcaption>
                                      </figure>
 
                                      <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
                                         <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative"> <img src="img/Rome_Italy.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
                                              <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
-                                             <figcaption class="absolute h-[100px] w-[50%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
+                                             <figcaption class="absolute h-[100px] w-[60%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
                                                      <p class="uppercase text-color4">Hotel</p>
-                                                     <p class="capitalize text-color3 font-secondary text-2xl">Rome<br> Italy, Europe </p>
+                                                     <p class="capitalize text-color3 font-secondary text-xl">Rome<br> Italy, Europe </p>
                                              </figcaption>
                                      </figure>
                         </div>
@@ -446,12 +446,14 @@ Many of the best cities to visit in Canada are gateways to magnificent wildernes
                 <figure class="w-[25%] "><img src="img/pix10.jpeg" alt="Pix10" w-[100%]></figure>
                 <figure class="w-[25%]  "><img src="img/pix7.jpeg" alt="pix7" w-[100%]></figure>
                 <figure class="w-[25%]  "><img src="img/pix2.jpeg" alt="pix2" w-[100%]></figure>
+                <figure class="w-[25%]  "><img src="img/tourbus.jpg" alt="tourbus" w-[100%]></figure>
              </div>
              <div class="flex  logos-slide  w-full flex-wrap  whitespace-nowrap ms-[-200%] animate-anime group-hover:pause ">
                 <figure class="w-[25%] "><img src="img/pix4.jpeg" alt="pix4" w-[100%]></figure>
                 <figure class="w-[25%] "><img src="img/Award-01.jpg" alt="award" w-[100%]></figure>
                 <figure class="w-[25%]  "><img src="img/pix6.jpeg" alt="pix6" w-[100%]></figure>
                 <figure class="w-[25%]  "><img src="img/SA.jpg" alt="pixSA" w-[100%]></figure>
+                <figure class="w-[25%]  "><img src="img/LondonSnow.jpeg" alt="pixLondon" w-[100%]></figure>
              </div>
                </div>
     </section>
