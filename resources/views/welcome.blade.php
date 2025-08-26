@@ -442,18 +442,18 @@ Many of the best cities to visit in Canada are gateways to magnificent wildernes
     <section class="w-full flex justify-center bg-color7 overflow-hidden" id="gallery">
         <div class="w-full container flex whitespace-nowrap overflow-hidden group">
              <div class="flex  logos-slide animate-anime w-full flex-wrap whitespace-nowrap group-hover:pause  ">
-                <figure class="w-[25%] "><img src="img/pix4.jpeg" alt="pix4" w-[100%]></figure>
-                <figure class="w-[25%] "><img src="img/pix10.jpeg" alt="Pix10" w-[100%]></figure>
-                <figure class="w-[25%]  "><img src="img/pix7.jpeg" alt="pix7" w-[100%]></figure>
-                <figure class="w-[25%]  "><img src="img/pix2.jpeg" alt="pix2" w-[100%]></figure>
-                <figure class="w-[25%]  "><img src="img/tourbus.jpg" alt="tourbus" w-[100%]></figure>
+                <figure class="w-[20%] "><img src="img/pix4.jpeg" alt="pix4" w-[100%]></figure>
+                <figure class="w-[20%] "><img src="img/pix10.jpeg" alt="Pix10" w-[100%]></figure>
+                <figure class="w-[20%]  "><img src="img/pix7.jpeg" alt="pix7" w-[100%]></figure>
+                <figure class="w-[20%]  "><img src="img/pix2.jpeg" alt="pix2" w-[100%]></figure>
+                <figure class="w-[20%]  "><img src="img/tourbus.jpg" alt="tourbus" w-[100%]></figure>
              </div>
              <div class="flex  logos-slide  w-full flex-wrap  whitespace-nowrap ms-[-200%] animate-anime group-hover:pause ">
-                <figure class="w-[25%] "><img src="img/pix4.jpeg" alt="pix4" w-[100%]></figure>
-                <figure class="w-[25%] "><img src="img/Award-01.jpg" alt="award" w-[100%]></figure>
-                <figure class="w-[25%]  "><img src="img/pix6.jpeg" alt="pix6" w-[100%]></figure>
-                <figure class="w-[25%]  "><img src="img/SA.jpg" alt="pixSA" w-[100%]></figure>
-                <figure class="w-[25%]  "><img src="img/LondonSnow.jpeg" alt="pixLondon" w-[100%]></figure>
+                <figure class="w-[20%] "><img src="img/pix4.jpeg" alt="pix4" w-[100%]></figure>
+                <figure class="w-[20%] "><img src="img/Award-01.jpg" alt="award" w-[100%]></figure>
+                <figure class="w-[20%]  "><img src="img/pix6.jpeg" alt="pix6" w-[100%]></figure>
+                <figure class="w-[20%]  "><img src="img/SA.jpg" alt="pixSA" w-[100%]></figure>
+                <figure class="w-[20%]  "><img src="img/LondonSnow.jpeg" alt="pixLondon" w-[100%]></figure>
              </div>
                </div>
     </section>
