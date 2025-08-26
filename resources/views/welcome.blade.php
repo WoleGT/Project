@@ -381,7 +381,7 @@ Many of the best cities to visit in Canada are gateways to magnificent wildernes
                                              <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
                                              <figcaption class=" absolute h-[150px] w-[85%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
                                                      <p class="uppercase text-color4">Vacation</p>
-                                                     <p class="capitalize text-color3 font-secondary text-2xl">Times Square<br> NewYork, USA </p>
+                                                     <p class="capitalize text-color3 font-secondary text-2xl">New York City<br> USA </p>
                                              </figcaption>
                                      </figure>
                                      <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
@@ -406,6 +406,33 @@ Many of the best cities to visit in Canada are gateways to magnificent wildernes
                                              <figcaption class=" absolute h-[150px] w-[85%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
                                                      <p class="uppercase text-color4">Vacation</p>
                                                      <p class="capitalize text-color3 font-secondary text-2xl">Bratislava<br> Slovakia, Europe </p>
+                                             </figcaption>
+                                     </figure>
+
+                                     <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
+                                        <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative"> <img src="img/pix5.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
+                                             <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
+                                             <figcaption class=" absolute h-[150px] w-[85%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
+                                                     <p class="uppercase text-color4">Hotel</p>
+                                                     <p class="capitalize text-color3 font-secondary text-2xl">Johannesburg<br> South Africa </p>
+                                             </figcaption>
+                                     </figure>
+
+                                     <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
+                                        <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative"> <img src="img/New_York.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
+                                             <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
+                                             <figcaption class=" absolute h-[150px] w-[85%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
+                                                     <p class="uppercase text-color4">Vacation</p>
+                                                     <p class="capitalize text-color3 font-secondary text-2xl">Times Square<br> NYC, USA </p>
+                                             </figcaption>
+                                     </figure>
+
+                                     <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
+                                        <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative"> <img src="img/Rome_Italy.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
+                                             <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p></p><p class="font-bold"></p></div>
+                                             <figcaption class=" absolute h-[150px] w-[85%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
+                                                     <p class="uppercase text-color4">Hotel</p>
+                                                     <p class="capitalize text-color3 font-secondary text-2xl">Rome<br> Italy, Europe </p>
                                              </figcaption>
                                      </figure>
                         </div>
