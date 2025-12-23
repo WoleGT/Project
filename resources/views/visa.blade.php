@@ -98,7 +98,7 @@
         <!-- form -->
       <div class="w-full h-auto flex flex-col items-center justify-center 2xl:px-36 pt-10">
          <h1 class="text-2xl md:text-3xl lg:text-4xl text-color font-secondary">Visa Consultation Form</h1>
-         <p class="text-color text-lg md:text-xl lg:text-2xl font-secondary justify-center">Fill the form below to book a consultation with our visa expert for a non-refundable fee of ₦20,000. </p>
+         <p class="text-color text-lg md:text-xl lg:text-2xl font-secondary text-center px-4 md:px-8">Fill the form below to book a consultation with our visa expert for a non-refundable fee of ₦30,000. </p>
          {{-- Success Message --}}
         {{-- ✅ Success Message --}}
         @if (session('msg'))
